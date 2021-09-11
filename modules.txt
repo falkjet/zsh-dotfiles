@@ -1,0 +1,8 @@
+aliases.zsh
+editor.zsh
+keybinds.zsh
+ls.zsh
+module with spaces.zsh
+nvm.zsh
+p10k.zsh
+path.zsh
