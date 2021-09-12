@@ -2,7 +2,10 @@
 ZSH_CONFIG_DIR=$(dirname $(readlink -f $0))
 
 mkdir -p $ZSH_CONFIG_DIR/local
-touch $ZSH_CONFIG_DIR/enabled-modules
+if [ ! -f $ZSH_CONFIG_DIR/enabled-modules ]
+then
+    echo modules > enabled-modules
+fi
 
 if [ -f ~/.zshrc ]
 then
