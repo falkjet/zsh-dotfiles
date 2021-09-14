@@ -1,1 +1,1 @@
-export LS_COLORS="*=0:ln=32:di=1;38;5;30:ex=31"
+export LS_COLORS="di=38;5;39:ex=31:ln=34"
